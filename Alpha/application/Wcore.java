@@ -90,37 +90,4 @@ public static Boolean inversor(Boolean x) {
 	x=!x;
 	return x;
 }
-/*
-public static void cImagen(ImageView a) {
-	String dir1[]= new String[6];
-	Image ip1[]=new Image[6];
-	ImageView ivp1=new ImageView();
-	
-	String dir2[]= new String[6];
-	Image ip2[]=new Image[6];
-	ImageView ivp2=new ImageView();
-	
-	int cont;
-	for (cont=0;cont<6;cont++) {
-		dir1[cont]=Personaje.direcciones(1,cont);
-		ip1[cont]=new Image(dir1[cont]);
-		}
-		ivp1=new ImageView(ip1[0]);
-		
-	for (cont=0;cont<6;cont++) {
-		dir2[cont]=Personaje.direcciones(2,cont);
-		ip2[cont]=new Image(dir2[cont]);
-		}
-		ivp2=new ImageView(ip2[3]);
-		a=ivp2;
-	
-}*/
-/*
-	public void pumpOnce(){
-	    p = p + 1;
-	    initHeart();
-	    //Here goes what ever it takes to make stuff working!!
-	    p = p - 1;
-	    initHeart();
-	}*/
-}
+
